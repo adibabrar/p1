@@ -1,0 +1,89 @@
+body{
+	background: url(../img/bg.jpg);
+	background-size: cover;
+
+
+}
+.container {
+	width: 650px;
+	margin: 12% auto;
+
+}
+.login-section {
+    margin:30px;
+    background-color: #4f81a594;
+    padding: 10px;
+
+}
+.login-section img {
+
+	display: block;
+	margin:auto;
+
+
+
+}
+.login-section h3 {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+
+}
+.form-control{
+	width: 95%;
+	margin: 5px;
+	height: 30px;
+	padding: 2px;
+
+
+}
+
+
+
+
+
+.submit-btn {
+	display: block;
+	margin: 0 auto;
+	font-size: 15px;
+	text-transform: uppercase;
+	transition: 0.3s ease-in-out;
+	
+
+}
+.submit-btn:hover{
+	box-shadow: 1px 2px 4px 2px white;
+	cursor: pointer;
+
+}
+
+.warp{
+	max-width: 450px;
+	border-radius: 20px;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	padding: 40px;
+	margin-top: 230px;
+	background-color: #0431829e;
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+input[type=text],input[type=password]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 5px;
+	background: rgba(0,0,0,0,10);
+	outline: none;
+	border:none;
+	border-bottom: 1px dotted #fff;
+	color: #fff;
+	border-radius: 5px;
+	margin:5px;
+	font-weight: bold;
+	background-color: #0431829e;
+}
